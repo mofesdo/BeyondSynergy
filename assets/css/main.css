@@ -1732,34 +1732,16 @@ input, select, textarea {
 	}
 
 	header.major {
-		padding-bottom: 2em;
+		padding-bottom: 0em;
 	}
 
 	header.special {
-		margin-bottom: 5em;
-		padding-top: 7em;
+		margin-bottom: 0em;
+		padding-top: 0em;
 		position: relative;
 		text-align: center;
 	}
 
-		header.special:before, header.special:after {
-			border-bottom: solid 1.5px;
-			border-top: solid 1.5px;
-			content: '';
-			height: 7px;
-			opacity: 0.1;
-			position: absolute;
-			top: 1.75em;
-			width: 43%;
-		}
-
-		header.special:before {
-			left: 0;
-		}
-
-		header.special:after {
-			right: 0;
-		}
 
 		header.special h2 {
 			margin-bottom: 0;
@@ -1784,6 +1766,10 @@ input, select, textarea {
 				font-size: 3.5em;
 				opacity: 0.35;
 			}
+		header.special .logo{
+			width: 14rem;
+			height: 14rem;
+		}
 
 	footer > :last-child {
 		margin-bottom: 0;
@@ -2539,7 +2525,6 @@ input, select, textarea {
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url('/images/logo.png');
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
@@ -2633,7 +2618,7 @@ input, select, textarea {
 			}
 
 	body.index #main {
-		padding-top: 5em;
+		padding-top: 1em;
 	}
 
 /* CTA */
@@ -2698,7 +2683,7 @@ input, select, textarea {
 		/* Section/Article */
 
 			header.special {
-				padding-top: 5.5em;
+				/*padding-top: 5.5em; */
 				margin-bottom: 4em;
 			}
 
@@ -3402,15 +3387,17 @@ input, select, textarea {
 	}
 	
 	.slider-nav a {
-		width: 0.5rem;
-		height: 0.5rem;
+		width: 1rem;
+		height: 1rem;
 		border-radius: 50%;
 		background-color: #fff;
-		opacity: 0.75;
+		opacity: 1;
 		transition: opacity ease 250ms;
+		border: 1px solid black;
 	}
 	
 	.slider-nav a:hover {
-		opacity: 1;
+		background-color: rgb(153,0,0);
+		border: 1px solid black;
 	}
 	
