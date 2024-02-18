@@ -3358,6 +3358,7 @@ input, select, textarea {
 	/* Code Snippet for carousel --------------------------------------------------------------------------------------------------------------------------------------*/
 	.carousel {
 		padding: 0rem;
+		margin: 0em;
 	}
 	
 	.slider-wrapper {
