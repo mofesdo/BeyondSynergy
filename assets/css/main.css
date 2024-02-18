@@ -2848,7 +2848,7 @@ input, select, textarea {
 
 			header.special {
 				margin-bottom: 4em;
-				padding-top: 5em;
+				padding-top: 0em;
 			}
 
 				header.special:before, header.special:after {
@@ -2944,7 +2944,7 @@ input, select, textarea {
 					}
 
 			body.index #main {
-				padding-top: 4.5em;
+				padding-top: 0em;
 			}
 
 		/* CTA */
@@ -3295,7 +3295,7 @@ input, select, textarea {
 			}
 
 			body.index #main {
-				padding: 2.5em 0 0 0;
+				padding: 0;
 			}
 
 			body.contact #main {
