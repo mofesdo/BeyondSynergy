@@ -3362,14 +3362,14 @@ input, select, textarea {
 	
 	.slider-wrapper {
 		position: relative;
-		max-width: 100%;
+		max-width: 1850px;
 		
 		margin: 0 0;
 	}
 	
 	.slider {
 		display: flex;
-		aspect-ratio: 16 / 9;
+		aspect-ratio: 16/7;
 		overflow-x: auto;
 		scroll-snap-type: x mandatory;
 		scroll-behavior: smooth;
@@ -3385,7 +3385,7 @@ input, select, textarea {
 	}
 	
 	.slider img {
-		flex: 1 0 100%;
+		
 		scroll-snap-align: start;
 		object-fit:cover;
 	}
