@@ -1874,6 +1874,10 @@ input, select, textarea {
 				display: block;
 				width: 100%;
 			}
+			.image.featured iframe {
+				display: block;
+				width: 100%;
+			}
 
 /* Icon */
 
