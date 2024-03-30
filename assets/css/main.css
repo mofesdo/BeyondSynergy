@@ -3423,3 +3423,6 @@ input, select, textarea {
 		border: 1px solid black;
 	}
 	
+	#contact{
+		padding: 40px;
+	}
