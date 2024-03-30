@@ -3424,5 +3424,11 @@ input, select, textarea {
 	}
 	
 	#contact{
-		padding: 40px;
+		padding: 50px;
+		
+	}
+	.fields{
+		background-color: white;
+		color: black;
+
 	}
